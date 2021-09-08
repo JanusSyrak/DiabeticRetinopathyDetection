@@ -1,0 +1,15 @@
+#%%
+from auto_run import run_test
+run_test("xception",    1e-6, 16, 127)
+run_test("xception",    1e-5, 16, 127)
+run_test("xception",    1e-4, 16, 127)
+run_test("vgg16",       1e-6, 16, 127)
+run_test("vgg16",       1e-5, 16, 127)
+run_test("vgg16",       1e-4, 16, 127)
+run_test("vgg16",       1e-3, 16, 127)
+run_test("vgg16",       1e-2, 16, 127)
+run_test("inceptionv3", 1e-6, 16, 127)
+run_test("inceptionv3", 1e-5, 16, 127)
+run_test("inceptionv3", 1e-4, 16, 127)
+run_test("vgg19",       1e-6, 16, 127)
+run_test("vgg19",       1e-5, 16, 127)

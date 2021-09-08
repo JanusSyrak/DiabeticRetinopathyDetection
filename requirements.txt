@@ -1,0 +1,7 @@
+jupyter
+keras
+matplotlib
+opencv-python
+pillow
+sklearn
+tensorflow-gpu
